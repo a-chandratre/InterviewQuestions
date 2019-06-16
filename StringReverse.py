@@ -1,3 +1,4 @@
+from __future__ import print_function
 def reverse(str) :
     if not str : 
         print(str)
@@ -10,7 +11,7 @@ def reverse(str) :
         i += 1
         j -= 1
     for x in chars :
-        print x
+        print(x,end="")
 def swap (chars, i, j) :
     temp = chars[i];
     chars[i] = chars[j];
